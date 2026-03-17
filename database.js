@@ -9,7 +9,7 @@ const userSchema=new Schema({
     })
     const user=mongoose.model("user",userSchema);
 async function main(){
-    await mongoose.connect("mongodb+srv://azizlesner:Aziz%40bhai@heusenarmy.edbp7ra.mongodb.net/cle");
+    await mongoose.connect("mdb.net/cle");
     
 //     const user1=new user({name:"Aziz Heuse","Adhaar":35667198,"City":"Burigang","Gender":"male"});
 //     await user1.save();
